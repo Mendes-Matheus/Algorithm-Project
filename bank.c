@@ -198,6 +198,7 @@ void sacar(float saldo[5], char nome[5][20], char conta[5][13], char senha[5][13
                     switch(opcao){
                         case 1:
                             saldo[k] -= saque;
+                            printf("Saque realizado com sucesso!\nSaldo atual: %.2f\n", saldo[k]);
                             break;
                         case 2:
                             printf("Operacao cancelada!\n");
@@ -243,6 +244,9 @@ void transferir(float saldo[5], char nome[5][20], char conta[5][13], char senha[
                                     case 1:
                                         saldo[k]-= transferencia;
                                         saldo[y] += transferencia;
+                                        printf("Transferencia realizada com sucesso!\n");
+                                        printf("\nDestino\nNome: %s\nConta: %s\n", nome[y], conta[y]);
+                                        printf("\nOrigem\nNome: %s\nConta: %s\n", nome[k], conta[k]);
                                         break;
                                     case 2:
                                         printf("Operacao cancelada\n");
