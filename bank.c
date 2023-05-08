@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
 void menu_inicial(float saldo[5], char nome[5][20], char conta[5][13], char senha[5][13], int senhaErrada[5], int tentativas[5]);
 	/* funcao menu inicial: contem as opcoes de criar e acessar conta */
 void criar_conta(char nome[5][20], char conta[5][13], char senha[5][13]);
@@ -50,7 +52,7 @@ int main(){
 void menu_inicial(float saldo[5], char nome[5][20], char conta[5][13], char senha[5][13], int senhaErrada[5], int tentativas[5]){
     int opcao;
     do{
-        printf("\nBanco Imaginario\n\nSelecione uma opcao\n");
+        printf("\nBanco Imaginario!\n\nSelecione uma opcao\n");
         printf("1. Criar conta\n2. Acessar conta\n0. Sair\n");
         scanf("%d", &opcao);
         switch(opcao){
