@@ -1,6 +1,6 @@
 # **Projeto da disciplina de algoritmo do curso de Analise e Desenvolvimento de Sistemas no IFBA**
 
-Faça um sistema bancário utilizando vetores e matrizes na linguagem C, com as seguintes funções:
+Sistema bancário utilizando vetores e matrizes na linguagem C, com as seguintes funções:
 
 ## **MENU INICIAL**
 
